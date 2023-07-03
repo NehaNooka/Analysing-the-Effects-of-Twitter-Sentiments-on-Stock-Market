@@ -1,1 +1,11 @@
-# DATA_602_Twitter_Sentiment_Analysis_Stock_Market
+# Twitter Sentiment Analysis Stock Market (2015-2020)
+
+> Stock price prediction is a complex and challenging task given the large number of factors involved, such as economic circumstances, political events, and others, that may affect the stock prices directly or indirectly. However, studies have shown that the stock markets are affected by public sentiments considerably. While more people spend time online voicing their opinions, social media platforms have become a primary source of public sentiment mining. Twitter especially, has caught the interest of researchers working on analyzing public opinions and sentiments in the stock market domain, as it is a rich source of real-time information including societal and personal opinions.
+
+> In this study, the potential of Twitter sentiments as a key driving element in stock price forecasting was investigated. According to our research, we found that Twitter sentiments are an influential factor in stock prices movement and prediction of some of the major companies listed on the NASDAQ stock market exchange. It was also observed that the measure of ‘positivity’, ‘negativity’, and ‘subjectivity’ in tweets was significantly correlated with stock price movements thus contributing majorly towards the predictive stock price model. As the stock market data is a time-series data having continuous information, our results indicated that the Long-Short Term Memory neural network (LSTM) model gives state-of-theart results to forecast the stock prices using tweets sentiments and historical stock prices data.
+
+> The analysis resulted in confident predictive stock price models for Apple Inc., Amazon and Google as their stock prices showed a high correlation with Twitter Sentiments.
+
+## Conclusion 
+
+> After data filtering, sentimental analysis and feature selection on the entire data of all the five companies (Amazon, Microsoft, Google, Apple, Tesla,), the three companies that showed a correlation among Twitter sentiment data and Stock market data were Amazon, Apple and Google. With the other companies like Tesla and Microsoft, the correlation found was weak and insignificant. This shows that there is a correlation between Twitter data and the stock market in the case of a few companies. The LSTM model is desirable as we have a multivariate time series forecasting problem. LSTM models produced great results especially for Apple Inc with an RMSE value under 5.0 for all the possible variations.
